@@ -8,8 +8,8 @@
 
 <script>
 
-import Header from '@/views/TheMain.vue'
-import Main from '@/components/TheHeader.vue'
+import Main from '@/views/TheMain.vue'
+import Header from '@/components/TheHeader.vue'
 import Footer from '@/components/TheFooter.vue'
 
 export default {
@@ -31,6 +31,7 @@ export default {
 body,html{
     height:100%;
     width:100%;
+    overflow: hidden;
 }
 html{
   background: url('./assets/background.jpg') no-repeat center center fixed; 
