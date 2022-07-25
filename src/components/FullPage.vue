@@ -421,7 +421,7 @@ export default {
   to {
     filter: blur(0px);
     opacity: 1;
-    transform: translateX(0);
+    transform: translateX(gi);
   }
 } */
 
