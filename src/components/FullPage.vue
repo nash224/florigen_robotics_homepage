@@ -1,6 +1,14 @@
 <template>
     <div class="full-page">
 		<div class="section content1">
+            <div class="title-logo-wrapper">
+                <div class="title-logo">
+                    <img src="@/assets/logo.png">
+                </div>
+            </div>
+            <div class="title-top-wrap">
+                <div class="upperline">Robot Platform Connecting</div>
+            </div>
             <div class="title-container">
                 <span>F</span>
                 <span>L</span>
@@ -20,28 +28,141 @@
                 <span>C</span>
                 <span>S</span>
             </div>
-		</div>
-		<div class="section content2">
-            <div class="content-container"> 
-                <div class="text-container">
-                    <h2>Monitoring</h2>
-                    <div>Know exactly what is happening with your robots with powerful monitoring across your entire fleet. Florigen Robotics Mission Control® gives you the benefit of:</div>
-                    <div>Logging: Collect data across all your devices, organized efficiently and available for replay at a moment’s notice. </div>
-                    <div>Visualization: Beautiful and customizable dashboards let you get insights in seconds about the present or past state of a robot. </div>
-                    <div>Sharing: Enable collaboration between teams with fast and secure sharing of data and dashboards.</div>
-                </div>
-                <div class="img-wrapper">
+            <div class="title-underline textA">
+                <span>with the world’s leading API-first robotics control, monitoring, and management platform.</span>
+            </div>
+            <div class="title-wrapper">
+                <div class="title-underline textB">
+                    <span>- Connecting Robot, People and City -</span>
                 </div>
             </div>
 		</div>
-        <div class="section content3">
+        <div class="section content-temp">
+            <div class="section-inner-wrapper">
+                <h2 class="headline">
+                    Deploy faster. Improve performance. 
+                    <br>
+                    Maximize utilization. Transform data into insights.
+                </h2>
+                <div class="div-block"></div>
+                <div class="RPC-content-wrap">
+                    <div class="RPC-content-box RPC-box-A">
+                        <div class="RPC-card-wrap">
+                            <div class="card-head-shape-wrap">
+                                <!-- <div class="card-shape-outter">
+                                    <div class="card-shape-inner">
+                                        <span>Robot</span>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <h3 class="card-headline">Robot</h3>
+                            <span>
+                                Easily deploy, configure, and manage an entire robotic fleet at scale. Monitor a fleet in real-time or jump directly to an event to review and resolve incidents quickly and collaboratively.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="RPC-content-box RPC-box-A">
+                        <div class="RPC-card-wrap">
+                            <div class="card-head-shape-wrap">
+                                <!-- <div class="card-shape-outter">
+                                    <div class="card-shape-inner">
+                                        <span>Robot</span>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <h3 class="card-headline">SAFE</h3>
+                            <span>
+                                With excellent tools for simple tasks such as moving objects from afar, or more difficult tasks. 
+                            </span>
+                        </div>
+                    </div>
+                    <div class="RPC-content-box RPC-box-A">
+                        <div class="RPC-card-wrap">
+                            <div class="card-head-shape-wrap">
+                                <!-- <div class="card-shape-outter">
+                                    <div class="card-shape-inner">
+                                        <span>Robot</span>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <h3 class="card-headline">Efficient</h3>
+                            <span>
+                                With a laser scanner and program routine scanning routes to create digital twins of worksites and identify rework sooner.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<div class="section content-switch">
+            <div class="content-container-temp"> 
+                <div class="content-head">
+                    <div class="title-wrap">
+                        <h2>Temper</h2>
+                    </div>
+                    <div class="img-wrap-temp"></div>
+                    <div class="img-wrapper-temp">
+                        <img class="img-box-temp" src="@/assets/monitoring.gif">
+                    </div>
+                </div>
+
+                <!-- <div class="content-middle-wrap"></div> -->
+
+                <div class="content-foot">
+                    <div class="text-wrap-temp">
+                        <div>Use our powerful suite of remote control and teleoperation tools to give your engineering and operations team an edge when dealing with remote fleets.</div>
+                        <div>Teleop in when an issue arises and navigate the robot to safety with intuitive, low-latency controls for your robot’s custom configuration, or run a command remotely to get it back to its desired state. You can even drive the robot with a map or with GPS, and user permissions mean that you can manage access across your teams easily.</div>                  
+                    </div>
+                    <!-- <div class="content-foot-wrap"></div> -->
+                    <div class="img-foot-wrap">
+                        <img class="img-box-temp" src="@/assets/monitoring.gif">
+                    </div>
+                </div>
+                <!-- <div class="text-container">
+                    <h2>Temper</h2>
+                    <div>Use our powerful suite of remote control and teleoperation tools to give your engineering and operations team an edge when dealing with remote fleets.</div>
+                    <div>Teleop in when an issue arises and navigate the robot to safety with intuitive, low-latency controls for your robot’s custom configuration, or run a command remotely to get it back to its desired state. You can even drive the robot with a map or with GPS, and user permissions mean that you can manage access across your teams easily. </div>
+                    <div class="text-bottom"></div>
+                </div> -->
+
+                <!-- <div class="center-wrap"></div> 
+                <div class="img-wrapper sec1">
+                    <img class="img-box" src="@/assets/monitoring.gif" >
+                    <div class="img-center-block"></div>
+                    <img class="img-box img-reverse" src="@/assets/monitoring.gif" >
+                </div> -->
+            </div>
+        </div>
+
+		<div class="section content2">
             <div class="content-container"> 
                 <div class="text-container">
                     <h2>Control</h2>
                     <div>Use our powerful suite of remote control and teleoperation tools to give your engineering and operations team an edge when dealing with remote fleets.</div>
                     <div>Teleop in when an issue arises and navigate the robot to safety with intuitive, low-latency controls for your robot’s custom configuration, or run a command remotely to get it back to its desired state. You can even drive the robot with a map or with GPS, and user permissions mean that you can manage access across your teams easily. </div>
+                    <div class="text-bottom"></div>
                 </div>
-                <div class="img-wrapper">
+                <div class="center-wrap"></div> 
+                <div class="img-wrapper sec1">
+                    <img class="img-box" src="@/assets/monitoring.gif" >
+                    <div class="img-center-block"></div>
+                    <img class="img-box img-reverse" src="@/assets/monitoring.gif" >
+                </div>
+            </div>
+        </div>
+        <div class="section content3">
+            <div class="content-container"> 
+                <div class="img-wrapper sec1">
+                    <img class="img-box" src="@/assets/monitoring.gif" >
+                    <div class="img-center-block"></div>
+                    <img class="img-box img-reverse" src="@/assets/monitoring.gif" >
+                </div>
+                <div class="center-wrap"></div>
+                <div class="text-container">
+                    <h2>Monitoring</h2>
+                    <div>Sophisticated monitoring technology allows you to know what the robot has done through the history of the robot's situation.</div>
+                    <div>The 3D shape information generated from the site focuses on the reliability of data analysis, and the acquired data is quickly refined and shared with the site. </div>
+                    <div>These Powerful performances help to getting quickly and easily to the information, and Spot play a role in helping people work in a safe environment.</div>
                 </div>
             </div>
 		</div>
@@ -52,12 +173,16 @@
                     <div>Get to the root cause of an issue quickly with rapid analysis, statistics tracking, and customizable data streams. Linked robot, system, logging, and other data allows correspondence for training sets and more.</div>
                     <div>Analyze data across your entire fleet and make informed decisions to ensure uptime and manage cost overruns. Use our API to instantly access all  of your robot data for aggregating statistics, monitoring systems, and integrating with custom endpoints. </div>
                 </div>
-                <div class="img-wrapper">
+                <div class="center-wrap"></div> 
+                <div class="img-wrapper sec1">
+                    <img class="img-box" src="@/assets/monitoring.gif" >
+                    <div class="img-center-block"></div>
+                    <img class="img-box img-reverse" src="@/assets/monitoring.gif" >
                 </div>
             </div>
 		</div>
         <div class="section content5">
-                <h2>Pater's</h2>
+                <h4>Meet our partner</h4>
                 <div class="patner-logo">
                 <img src="../assets/partner-logo/1x/gs_e_c.png">
                 </div>
@@ -224,11 +349,31 @@ export default {
 }
 </style>
 <style scoped>
+.full-page {
+    width: 100%;
+}
 .title-container{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    transform: translateX(20px);
+}
+.title-logo-wrapper {
+    position: relative;
+}
+.title-logo {
+    position: absolute;
+    top: -250px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.title-top-wrap {
+    padding-bottom: 2em;
+}
+.upperline {
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 1px;
 }
 .title-container span{
     font-family: "Montserrat";
@@ -237,6 +382,7 @@ export default {
     font-size: 5em;
     color: #fff;
     letter-spacing: 2rem;
+    margin-bottom: 0.2em;
     /*   filter: blur(3px); */
     animation: blurMe 1.4s ease-in-out forwards;
     opacity: 0;
@@ -266,7 +412,34 @@ export default {
     background: #000000ee;
     color: white;
 }
+/* @keyframes blurMeUL {
+  from {
+    filter: blur(10px);
+    opacity: 0;
+    transform: translateX(-120px);
+  }
+  to {
+    filter: blur(0px);
+    opacity: 1;
+    transform: translateX(0);
+  }
+} */
 
+.title-wrapper {
+    margin-top: 0.5em;
+}
+
+.title-underline > span {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.1em; 
+    animation: blurMeUL 3s forwards;
+    animation-delay: 0.3s;
+}
+.content-temp {
+    background: #e9edf8;
+    width: 100vw;
+}
 .content2, .content3, .content4{
     display:flex;
     flex-direction: row;
@@ -274,10 +447,13 @@ export default {
 }
 
 h2{
-    font-size: 4em;
+    font-size: 2.5em;
+    /* letter-spacing: -1px; */
     margin: 0;
     text-align: left;
     color: white;
+    /* padding-top: 8em; */
+    padding-bottom: 0.2em;
 }
 h3{
     font-size: 2.5em;
@@ -286,22 +462,165 @@ h3{
     text-align: center;
     color: white;
 }
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: left;
+    color: white;
+    /* padding-top: 8em; */
+    padding-bottom: 1em;
+}
+.section-inner-wrapper {
+    padding-top: 80px;
+    padding-bottom: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 1440px;
+}
+.headline {
+    font-weight: 400;
+    color: #39456c;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.div-block {
+    height: 30px;
+    padding-bottom: 70px;
+}
+.RPC-content-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.RPC-content-box {
+    /* width: 33.33%; */
+    padding: 20px;
+    display: flex;
+    flex: 1;
+    /* flex-direction: column; */
+}
+.RPC-card-wrap {
+    position: relative;
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+    /* background: white; */
+    background: linear-gradient(290deg, white 55%, #F8F9FC 55%);
+    border-radius: 6px;
+    padding: 30px;
+    min-height: 350px;
+}
+.card-head-shape-wrap {
+    position: relative;
+    align-items: center;
+
+}
+.card-headline {
+    text-align: left;
+    font-weight: bold;
+    color: #39456c;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
 .content-container{
     display:flex;
     flex:1;
+    padding: 8.333vw 0 3.472vw;
     margin: 0 20.6250vw;
 }
-
-.text-container{    
+.content-container-temp{
+    display:flex;
+    flex-direction: column;
     flex:1;
+    padding: 8.333vw 0 3.472vw;
+    margin: 0 20.6250vw;
+}
+.center-wrap {
+    width: 5vw;
+}
+.content-head {
+    display: flex;
+}
+.title-wrap {
+    display: flex;
+    align-items: flex-end;
+    width: 400px;
+}
+.img-wrap-temp {
+    width: 2em;
+}
+.img-wrapper-temp {
+    display: flex;
+    flex-direction: column;
+}
+.img-box-temp {
+    width: 600px;
+}
+.img-foot-wrap {
+    padding-top: 4em;
+    padding-left: 2em;
+}
+.content-middle-wrap {
+    height: 3em;
+}
+.content-foot {
+    display: flex;
+    flex-direction: row;
+}
+.text-wrap-temp {
+    flex-grow: 0;
+    width: 500px;
+    padding-top: 1.5em;
+}
+.text-wrap-temp > div {
+    color: white;
+    font-size: 1.2rem;
+    /* width:26.0417vw; */
+    line-height: 1.5;
+    /* width: 440px; */
+    margin: 0 0 1rem 0;
+}
+.content-foot-wrap {
+    width: 2em;
+    overflow: hidden;
+}
+
+
+.text-container{
+    /* flex: 1; */
+    flex-grow: 0;
+    width: 27em;
+    /* padding-bottom: 100px; */
 }
 .text-container div{
-    
-    width:26.0417vw;
-    margin: 15px 0;
+    color: white;
+    font-size: 1.2rem;
+    /* width:26.0417vw; */
+    line-height: 1.5;
+    width: 440px;
+    margin: 0 0 1rem 0;
 }
 .img-wrapper{
+    display: flex;
+    flex-direction: column;
     flex:1;
+}
+.img-box {
+    max-width: 41vw;
+}
+.img-center-block {
+    height: 80px;
 }
 
 .content5{

@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
+
+
 // stores
 import Vuex from 'vuex';
 import MainStore from '@/store';
@@ -12,7 +14,7 @@ const app = createApp(App);
 
 const store = new Vuex.Store({
 	modules: {
-	  main: MainStore
+	main: MainStore
 	}
 });
 
