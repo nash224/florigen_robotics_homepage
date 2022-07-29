@@ -3,7 +3,7 @@
 		<div class="section content1">
             <div class="title-logo-wrapper">
                 <div class="title-logo">
-                    <img src="@/assets/logo.png">
+                    <img src="@/assets/florigen_mascort.png">
                 </div>
             </div>
             <div class="title-top-wrap">
@@ -29,7 +29,7 @@
                 <span>S</span>
             </div>
             <div class="title-underline textA">
-                <span>with the world’s leading API-first robotics control, monitoring, and management platform.</span>
+                <span>provides innovative API robotcis to make people safer.</span>
             </div>
             <div class="title-wrapper">
                 <div class="title-underline textB">
@@ -37,23 +37,22 @@
                 </div>
             </div>
 		</div>
+
+        
         <div class="section content-temp">
             <div class="section-inner-wrapper">
                 <h2 class="headline">
-                    Deploy faster. Improve performance. 
+                    Detecting Hazardous Materials and
                     <br>
-                    Maximize utilization. Transform data into insights.
+                    Protecting people from hazardous environments.
+                    <br>
+                    We have the following goals:
                 </h2>
                 <div class="div-block"></div>
                 <div class="RPC-content-wrap">
                     <div class="RPC-content-box RPC-box-A">
                         <div class="RPC-card-wrap">
                             <div class="card-head-shape-wrap">
-                                <!-- <div class="card-shape-outter">
-                                    <div class="card-shape-inner">
-                                        <span>Robot</span>
-                                    </div>
-                                </div> -->
                             </div>
                             <h3 class="card-headline">Robot</h3>
                             <span>
@@ -64,13 +63,8 @@
                     <div class="RPC-content-box RPC-box-A">
                         <div class="RPC-card-wrap">
                             <div class="card-head-shape-wrap">
-                                <!-- <div class="card-shape-outter">
-                                    <div class="card-shape-inner">
-                                        <span>Robot</span>
-                                    </div>
-                                </div> -->
                             </div>
-                            <h3 class="card-headline">SAFE</h3>
+                            <h3 class="card-headline">People</h3>
                             <span>
                                 With excellent tools for simple tasks such as moving objects from afar, or more difficult tasks. 
                             </span>
@@ -79,13 +73,8 @@
                     <div class="RPC-content-box RPC-box-A">
                         <div class="RPC-card-wrap">
                             <div class="card-head-shape-wrap">
-                                <!-- <div class="card-shape-outter">
-                                    <div class="card-shape-inner">
-                                        <span>Robot</span>
-                                    </div>
-                                </div> -->
                             </div>
-                            <h3 class="card-headline">Efficient</h3>
+                            <h3 class="card-headline">City</h3>
                             <span>
                                 With a laser scanner and program routine scanning routes to create digital twins of worksites and identify rework sooner.
                             </span>
@@ -94,101 +83,112 @@
                 </div>
             </div>
         </div>
-		<div class="section content-switch">
-            <div class="content-container-temp"> 
-                <div class="content-head">
-                    <div class="title-wrap">
-                        <h2>Temper</h2>
-                    </div>
-                    <div class="img-wrap-temp"></div>
-                    <div class="img-wrapper-temp">
-                        <img class="img-box-temp" src="@/assets/monitoring.gif">
-                    </div>
-                </div>
-
-                <!-- <div class="content-middle-wrap"></div> -->
-
-                <div class="content-foot">
-                    <div class="text-wrap-temp">
-                        <div>Use our powerful suite of remote control and teleoperation tools to give your engineering and operations team an edge when dealing with remote fleets.</div>
-                        <div>Teleop in when an issue arises and navigate the robot to safety with intuitive, low-latency controls for your robot’s custom configuration, or run a command remotely to get it back to its desired state. You can even drive the robot with a map or with GPS, and user permissions mean that you can manage access across your teams easily.</div>                  
-                    </div>
-                    <!-- <div class="content-foot-wrap"></div> -->
-                    <div class="img-foot-wrap">
-                        <img class="img-box-temp" src="@/assets/monitoring.gif">
-                    </div>
-                </div>
-                <!-- <div class="text-container">
-                    <h2>Temper</h2>
-                    <div>Use our powerful suite of remote control and teleoperation tools to give your engineering and operations team an edge when dealing with remote fleets.</div>
-                    <div>Teleop in when an issue arises and navigate the robot to safety with intuitive, low-latency controls for your robot’s custom configuration, or run a command remotely to get it back to its desired state. You can even drive the robot with a map or with GPS, and user permissions mean that you can manage access across your teams easily. </div>
-                    <div class="text-bottom"></div>
-                </div> -->
-
-                <!-- <div class="center-wrap"></div> 
-                <div class="img-wrapper sec1">
-                    <img class="img-box" src="@/assets/monitoring.gif" >
-                    <div class="img-center-block"></div>
-                    <img class="img-box img-reverse" src="@/assets/monitoring.gif" >
-                </div> -->
-            </div>
-        </div>
 
 		<div class="section content2">
-            <div class="content-container"> 
-                <div class="text-container">
-                    <h2>Control</h2>
-                    <div>Use our powerful suite of remote control and teleoperation tools to give your engineering and operations team an edge when dealing with remote fleets.</div>
-                    <div>Teleop in when an issue arises and navigate the robot to safety with intuitive, low-latency controls for your robot’s custom configuration, or run a command remotely to get it back to its desired state. You can even drive the robot with a map or with GPS, and user permissions mean that you can manage access across your teams easily. </div>
-                    <div class="text-bottom"></div>
-                </div>
-                <div class="center-wrap"></div> 
-                <div class="img-wrapper sec1">
-                    <img class="img-box" src="@/assets/monitoring.gif" >
-                    <div class="img-center-block"></div>
-                    <img class="img-box img-reverse" src="@/assets/monitoring.gif" >
+            <div class="content-container">
+                <div class="column-wrap">
+                    <div class="contents-box-wrap">
+                        <div class="box-wrap text-box-wrap">
+                            <div class="text-inner">
+                                <h5>Set automatically pin point</h5>
+                                <div>A spot with a sensor that detects a dangerous object moves safely and quickly to its destination via a pinpoint set by an algorithm on the path.</div>
+                                <div>It is suitable for substituting tasks that are dangerous or impossible for the operator, and these tasks are performed without the direct supervision of the operator.</div>
+                            </div>
+                        </div>
+                        <div class="box-wrap img-box-wrap">
+                            <img src="@/assets/control_1.png" style="max-width: 95%; box-shadow: 3px 3px 20px 5px #0e0e0e;">
+                        </div>
+                    </div>
+                    <div class="contents-box-wrap">
+                        <div class="box-wrap img-box-wrap-reverse">
+                            <img src="@/assets/control_2.png" style="max-width: 95%; height: auto; box-shadow: 3px 3px 20px 5px #0e0e0e;">
+                        </div>
+                        <div class="box-wrap text-box-wrap-reverse">
+                            <div class="text-inner">
+                                <h5>Control the spot manually</h5>
+                                <div>A sophisticated obstacle avoidance algorithm allows supervisors to manually control the rough workspace. Superviser drive a fleet using maps or GPS, and if you have user permissions, you can easily manage access for entire team. </div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="section content3">
-            <div class="content-container"> 
-                <div class="img-wrapper sec1">
-                    <img class="img-box" src="@/assets/monitoring.gif" >
-                    <div class="img-center-block"></div>
-                    <img class="img-box img-reverse" src="@/assets/monitoring.gif" >
-                </div>
-                <div class="center-wrap"></div>
-                <div class="text-container">
-                    <h2>Monitoring</h2>
-                    <div>Sophisticated monitoring technology allows you to know what the robot has done through the history of the robot's situation.</div>
-                    <div>The 3D shape information generated from the site focuses on the reliability of data analysis, and the acquired data is quickly refined and shared with the site. </div>
-                    <div>These Powerful performances help to getting quickly and easily to the information, and Spot play a role in helping people work in a safe environment.</div>
+        
+		<div class="section content3">
+            <div class="content-container">
+                <div class="column-wrap">
+                    <div class="contents-box-wrap">
+                        <div class="box-wrap img-box-wrap-reverse">
+                            <img src="@/assets/monitoring_1.png" style="max-width: 95%; height: auto; box-shadow: 3px 3px 20px 5px #0e0e0e;">
+                        </div>
+                        <div class="box-wrap text-box-wrap-reverse">
+                            <div class="text-inner">
+                                <h5>Data driven insights</h5>
+                                <div>Real-time analytics and reporting on the uptime, performance, efficiency and potential faults of multi-manufacturer robot fleets.</div>
+                                <div>It not only analyzes the information of the terrain and surrounding environment, but also provides a user interface that can monitor the status of the robot in real time or review the previous situation. </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contents-box-wrap">
+                        <div class="box-wrap text-box-wrap">
+                            <div class="text-inner">
+                                <h5>Monitoring</h5>
+                                <div>Sophisticated monitoring technology allows you to know what the robot has done through the history of the robot's situation.</div>
+                                <div>The 3D shape information generated from the site focuses on the reliability of data analysis, and the acquired data is quickly refined and shared with the site. </div>
+                                <div>These Powerful performances help to getting quickly and easily to the information, and a fleet play a role in helping people work in a safe environment.</div>
+                            </div>
+                        </div>
+                        <div class="box-wrap img-box-wrap">
+                            <img src="@/assets/monitoring_2.png" style="max-width: 95%; box-shadow: 3px 3px 20px 5px #0e0e0e;">
+                        </div>
+                    </div>
                 </div>
             </div>
-		</div>
-        <div class="section content4">
-            <div class="content-container"> 
-                <div class="text-container">
-                    <h2>Analysis</h2>
-                    <div>Get to the root cause of an issue quickly with rapid analysis, statistics tracking, and customizable data streams. Linked robot, system, logging, and other data allows correspondence for training sets and more.</div>
-                    <div>Analyze data across your entire fleet and make informed decisions to ensure uptime and manage cost overruns. Use our API to instantly access all  of your robot data for aggregating statistics, monitoring systems, and integrating with custom endpoints. </div>
+        </div>
+
+		<div class="section content4">
+            <div class="content-container">
+                <div class="column-wrap">
+                    <div class="contents-box-wrap">
+                        <div class="box-wrap text-box-wrap">
+                            <div class="text-inner">
+                                <h5>Digital lidar solutions</h5>
+                                <div>High-resolution lidar sensors paired with software that detects and classifies vehicles, pedestrians, bicyclists, and even specific incidents across all light and weather conditions.</div>
+                                <div>3D mapping is revolutionizing the construction, surveying, and autonomy industries. High-resolution 360º digital lidar enables faster indoor and outdoor scans to power precise SLAM map creation.</div>
+                            </div>
+                        </div>
+                        <div class="box-wrap img-box-wrap">
+                            <img src="@/assets/digital_twin_1.png" style="max-width: 95%; box-shadow: 3px 3px 20px 5px #0e0e0e;">
+                        </div>
+                    </div>
+                    <div class="contents-box-wrap">
+                        <div class="box-wrap img-box-wrap-reverse">
+                            <img src="@/assets/digital_twin_2.png" style="max-width: 95%; height: auto; box-shadow: 3px 3px 20px 5px #0e0e0e;">
+                        </div>
+                        <div class="box-wrap text-box-wrap-reverse">
+                            <div class="text-inner">
+                                <h5>Aerial Mapping</h5>
+                                <div>A robot with a high-performance lidar sensor recognizes the surrounding environment in real time and performs 3D mapping.</div>
+                                <div>Teleop in when an issue arises and navigate the robot to safety with intuitive, low-latency controls for your robot’s custom configuration, or run a command remotely to get it back to its desired state. You can even drive the robot with a map or with GPS, and user permissions mean that you can manage access across your teams easily.</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="center-wrap"></div> 
-                <div class="img-wrapper sec1">
-                    <img class="img-box" src="@/assets/monitoring.gif" >
-                    <div class="img-center-block"></div>
-                    <img class="img-box img-reverse" src="@/assets/monitoring.gif" >
-                </div>
+                
             </div>
-		</div>
+        </div>
+
         <div class="section content5">
+            <div class="partner-title-wrap">
                 <h4>Meet our partner</h4>
-                <div class="patner-logo">
+            </div>
+            <div class="patner-logo">
                 <img src="../assets/partner-logo/1x/gs_e_c.png">
-                </div>
+            </div>
 		</div>
         <div class="section footer">
-            <div class="content-container"> 
+            <div class="content-footer"> 
                 <div class="company-info-container">
                     <div>
                         <img  class="logo" src="../assets/partner-logo/1x/gs_e_c.png">
@@ -200,8 +200,7 @@
                     </div>
                 </div>
                 <div class="contact-us">
-                    <form id="contact-form">
-                        <input type="hidden" name="contact_number">
+                    <form ref="form" @submit.prevent="sendEmail" id="contact-form">
                         <label>Name</label>
                         <input type="text" name="user_name">
                         <label>Email</label>
@@ -216,12 +215,25 @@
     </div>
 </template>
 
+
+
 <script>
 import { ref, onMounted } from 'vue';
 import { useStore } from "vuex";
+import emailjs from '@emailjs/browser';
 
 export default {
     name: 'FullPage',
+    methods: {
+        sendEmail() {
+            emailjs.sendForm('service_9i6jtmn', 'template_2meis47', this.$refs.form, 'frLQs-MItrzuXx6Ft')
+            .then((result) => {
+                console.log('SUCCESS!', result.text);
+            }, (error) => {
+                console.log('FAILED...', error.text);
+            });
+        }
+    },
     props: {
     },
     setup(){
@@ -440,11 +452,26 @@ export default {
     background: #e9edf8;
     width: 100vw;
 }
-.content2, .content3, .content4{
+.content2 {
+    background: #242d45;
+    display: flex;
+    flex-direction: row;
+}
+.content3 {
+    background: #1e2339;
+    display: flex;
+    flex-direction: row;
+}
+.content4 {
+    background: #1c1e2e;
+    display: flex;
+    flex-direction: row;
+}
+/* .content4{
     display:flex;
     flex-direction: row;
     color: white;
-}
+} */
 
 h2{
     font-size: 2.5em;
@@ -470,6 +497,17 @@ h4 {
     margin: 0;
     text-align: left;
     color: white;
+    /* padding-top: 8em; */
+    padding-bottom: 1em;
+}
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: left;
+    color: #7953fa;
     /* padding-top: 8em; */
     padding-bottom: 1em;
 }
@@ -513,7 +551,6 @@ h4 {
     position: relative;
     /* display: block; */
     width: 100%;
-    height: 100%;
     /* background: white; */
     background: linear-gradient(290deg, white 55%, #F8F9FC 55%);
     border-radius: 6px;
@@ -533,19 +570,55 @@ h4 {
     padding-bottom: 20px;
     letter-spacing: 1px;
 }
+
 .content-container{
     display:flex;
-    flex:1;
-    padding: 8.333vw 0 3.472vw;
-    margin: 0 20.6250vw;
+    /* flex:1; */
+    padding: 11vw 0 8vw;
+    margin: 0 10vw;
 }
-.content-container-temp{
-    display:flex;
+.content-footer {
+    display: flex;
+}
+.column-wrap {
+    display: flex;
     flex-direction: column;
-    flex:1;
-    padding: 8.333vw 0 3.472vw;
-    margin: 0 20.6250vw;
+    align-items: center;
+    /* flex: 1; */
 }
+
+.contents-box-wrap {
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    padding: 30px 0;
+}
+.box-wrap {
+    flex: 1;
+}
+.text-box-wrap {
+    padding-right: 30px;
+}
+.text-box-wrap-reverse {
+    padding-left: 30px;
+}
+.text-inner {
+    max-width: 700px;
+}
+.text-inner > div {
+    color: #adb6da;
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+.img-box-wrap {
+    padding-left: 30px;
+}
+.img-box-wrap-reverse {
+    padding-right: 30px;
+}
+
+
+
 .center-wrap {
     width: 5vw;
 }
@@ -634,6 +707,9 @@ h4 {
 }
 #contact-form input[type=text], #contact-form input[type=email]{
     height:2.9630vh;
+    padding-left: 5px;
+    color: white;
+    font-size: 1em;
     background: #ffffff55;
     border: solid 1px white;
     border-radius: 4px;
@@ -655,10 +731,17 @@ h4 {
 }
 #contact-form textarea{
     flex:1;
+    padding: 2px;
+    color: white;
+    padding-bottom: 20px;
     margin-bottom: 20px;
     background: #ffffff55;
     border:solid 1px white;
     resize: none;
+}
+.partner-title-wrap {
+    position: relative;
+    top: -150px;
 }
 .patner-logo{
     margin: 30px 0;
