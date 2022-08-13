@@ -689,6 +689,7 @@ h5 {
     background: #ffffff55;
     border: solid 1px white;
     border-radius: 4px;
+    
 }
 /* #contact-form input[type=submit]{
     height: 2.9630vh;
